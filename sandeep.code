@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Style for the color bar */
+        .color-bar {
+            background-color: black;
+            width: 100;
+            height: 70px;
+            position: relative;
+        }
+
+        /* Style for the image */
+        .image {
+            position: absolute;
+            top: 0.1cm;
+            left: 2cm;
+            height: 60px;
+            width: 70px:
+        }
+                /* Importing the Skolapotha font if available (custom or Google Fonts) */
+                @font-face {
+            font-family: 'skolapotha';
+            src: url('path-to-your-font/skolapotha.ttf') format('truetype'); /* Replace with the actual path */
+        }
+
+        /* Style for the text */
+        .text {
+            font-family: 'iskolapotha', sans-serif;
+            font-size: 14px;
+            color: white;
+            left:5cm;
+            top:0.5cm;
+            position: absolute;
+            
+        }
+         /* Style for the login button */
+         .login-button {
+            background-color: #fffcfc; /* Black background */
+            color: rgb(0, 0, 0); /* White text */
+            padding: 10px 20px; /* Some padding */
+            border: none; /* Remove borders */
+            font-size: 16px; /* Increase font size */
+            position: absolute; /* Allows positioning */
+            right: 4cm; /* 2 cm from the right side of the page */
+            top: 20px; /* Adjust the distance from the top if needed */
+            
+        }  cursor: pointer; /* Pointer/hand icon on hover */
+            border-radius: 5px; /* Rounded corners */
+          
+
+        .login-button:hover {
+            background-color: #ffffff; /* white hover */
+        }
+        .signup-button {
+            background-color: rgb(255, 255, 255); /* white background */
+            color: rgb(0, 0, 0); /* black text */
+            padding: 10px 20px; /* Padding for button size */
+            text-align: center; /* Centered text */
+            text-decoration: none; /* Remove underline */
+            font-size: 16px; /* Font size */
+            cursor: pointer; /* Pointer cursor on hover */
+            position: absolute;; /* Absolute positioning */
+            right: 2cm; /* 2 cm from the right */
+            top: 0.5cm/* Vertically center the button */
+            transform: translateY(-50%); /* Adjust for exact vertical center */
+            border-radius: 5px; /* Rounded corners */
+            border: none; /* No border */
+        }
+
+        .signup-button:hover {
+            background-color: #ffffff; /* white on hover */
+        }
+
+
+    </style>
+    <title>Image on Color Bar</title>
+    <title>text inside color bar</title>
+    <title>Login Button</title>
+    <title>Sign Up Button</title>
+</head>
+<body>
+    <div class="color-bar">
+        <img src="D:\sandeepa photo\c design\logo bictn.png" alt="Image" class="image">
+    </div>
+    
+        <span class="text" > NUGAWELA CENTRAL COLLEGE <BR> SENIOR BRASS BAND</span>    
+            <button class="login-button">Login</button>
+            <button class="signup-button">Sign Up</button>
+
+       
+    
+    
+</body>
+
+    
+</html>
